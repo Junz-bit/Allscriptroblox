@@ -46,7 +46,7 @@ Library.ShowToggleFrameInKeybinds = true
 
 local Window = Library:CreateWindow({
     Title = "GUNDAMSCRIPT v10",
-    Footer = "Survive the Apocalypse",
+    Footer = "Survive the Apocalypse junzscripts0",
     NotifySide = "Right",
     ShowCustomCursor = true,
 })
@@ -3820,7 +3820,7 @@ SaveManager:LoadAutoloadConfig()
 -- ============================================
 -- INIT NOTIFICATION
 -- ============================================
-Library:Notify({ Title = "SPYMM v8.2", Description = "Loaded! Gun|Melee|Medical|Armor|Food|Resources\nRight Shift = toggle menu.", Time = 5 })
+Library:Notify({ Title = "GUNDAMSCRIPT V10", Description = "Loaded! Gun|Melee|Medical|Armor|Food|Resources\nRight Shift = toggle menu.", Time = 5 })
 
 local espCounts = { Gun="Red", Melee="Orange", Medical="Green", Armor="Blue", Food="Lime", Resource="Silver" }
 print("GUNDAMSCRIPT v10 loaded | " .. #itemNames .. " items tracked | Right Shift = menu")
